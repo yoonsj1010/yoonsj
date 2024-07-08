@@ -1,0 +1,78 @@
+@media only screen and (max-width: 600px) {
+
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+    .logo_section {
+      img {
+        height: 30px;
+        width: 90px;
+      }
+    }
+
+    .main_menu {
+      .cate_menu {
+        display: none;
+      }
+
+      .button {
+        width: 90px;
+        height: 30px;
+      }
+    }
+  }
+
+  .main_1 {
+    .banner_img {
+      margin-top: 20px;
+      position: relative;
+      overflow: hidden;
+
+      img {
+        display: block;
+        width: 390px;
+        height: auto;
+        content: url('./img/webbanner.jpg');
+      }
+    }
+
+    .main_info_1 {
+      margin-top: 15px;
+    }
+    .info_section{
+      display: flex;
+      flex-direction: column;
+      .info_img{
+        img{
+          width: 72px;
+          height: 72px;
+        }
+      }
+    }
+
+  }
+  .main_2{
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
